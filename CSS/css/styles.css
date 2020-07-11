@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 150%;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /*100% = 1em = 16px*/
+  /* rem = most adaptable  */
+  margin-top: 50px;
+  font-family: 'Dancing Script', cursive;
+  margin: 50px auto 0 auto;
+  color: #2f2519;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2.5rem;
+  color: #393e46;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  color: #ba7967;
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 10%;
+  border-width: 0.7rem;
+  border-color: #0c4b8e;
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: #4cbbb9;
+  font-family: 'Work Sans', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #beebe9;
+}
+
+.top-container {
+  background-color: #79c2d0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #fcf8e8;
+  font-size: 1.4rem;
+}
+
+.bottom-container {
+  background-color: #5585b5;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 335px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile-img {
+  margin-top: 35px;
+  height: 15%;
+  width: 15%;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.kasa-design {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.computer-gif {
+  width: 25%;
+  float: right;
+}
+
+.bottom-container {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.btn {
+  background-color: #ffb6b9;
+  font-size: 28px;
+  border-style: solid;
+  border-radius: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.95rem
+}
