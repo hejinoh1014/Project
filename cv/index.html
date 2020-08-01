@@ -6,31 +6,69 @@
   <title>Claire Oh</title>
 
   <link rel="icon" href="images/icon.png">
-  <!-- Class -->
-  <link rel="stylesheet" href="css/styles.css">
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Mono&family=Work+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Mono&family=Work+Sans&display=swap">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+  <section>
+    <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Claire Oh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="Cloud-img">
-    <h1>I'm He-Jin Oh</h1>
-    <h2>a <span class="pro">pro</span>grammar </h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="Cloud-img">
-    <img src="images/mountain.png" alt="Mountain-img">
-  </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-auto">
 
+            <li class="nav-item">
+              <a href="#home" class="navbar-btn">Home</a>
+            </li>
 
+            <li class="nav-item">
+              <a href="#skills" class="navbar-btn">Skills</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="navbar-btn">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contact" class="navbar-btn">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="top-container" id = "hoem">
+        <img class="top-cloud" src="images/cloud.png" alt="Cloud-img">
+        <h1>I'm He-Jin Oh</h1>
+        <h2>a <span class="pro">pro</span>grammer </h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="Cloud-img">
+        <img src="images/mountain.png" alt="Mountain-img">
+      </div>
+
+  </section>
 
   <div class="middle-container">
     <div class="profile">
+
+      <!-- Profile Character Image -->
+
       <img class="profile-img" src="images/circle-cropped.png" alt="my profile pic">
 
+      <!-- Intro of Me -->
       <h2>Hello.</h2>
       <p class="intro">My name is He-Jin Oh, (prefer Claire Oh), and <br>
         I am a Undergraduate student in University of California Santa Cruz. <br>
@@ -39,42 +77,75 @@
       </p>
 
     </div>
+
     <hr>
-    <div class="skills">
+
+      <!-- Skills  -->
+  <div class="skills" id = "skills">
       <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="kasa-design" src="images/design.jpg" alt="avatar_I_drew">
 
-        <h3>Design</h3>
-        <p>In free time, I like to design characters. <br>
-           Right image is desiged with the apps called 'unniedoll' & 'oppadoll'</p>
+      <div id="carouselControls" class="carousel slide carousel-size" data-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="skill-row">
+              <img class="kasa-design" src="images/design.jpg" alt="avatar_I_drew">
+              <h3>Design</h3>
+              <p>In free time, I like to design characters. <br>
+                Above image is desiged with the apps called 'unniedoll' & 'oppadoll'</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="skill-row">
+              <img class="computer-gif" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="computer">
+              <h3>Programming</h3>
+              <p>
+                Java : ⭐⭐⭐ <br>
+                C/C++ : ⭐⭐ <br>
+                HTML/CSS : ⭐⭐⭐⭐ <br>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+   </div>
+
+ </div>
+ <!-- End of Carousel -->
+
+      <hr>
+    <!-- Contact Me -->
+
+      <div class="contact-me" id ="contact">
+
+        <h2>Get In Touch</h2>
+
+        <p class="contact-me-words">If you want to reach out for any projects, click the button below!</p>
+
+        <a href="contact.html" class="contact-btn">CONTACT ME</a>
 
       </div>
-      <div class="skill-row">
-        <img class="computer-gif" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="computer">
-
-        <h3>Programming</h3>
-        <p>
-          Java : ⭐⭐⭐ <br>
-          C/C++ : ⭐⭐ <br>
-          HTML/CSS : ⭐⭐⭐⭐ <br>
-        </p>
-
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <p>If you want to reach out for any projects, click the button below! :D</p>
-      <a class="btn" href="contact.html">CONTACT ME</a>
-    </div>
 
     <br>
+
   </div>
+  <!-- Links -->
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/he-jin-claire-oh-aa8a80177/">LinkedIn</a>
-    <a class="footer-link" href="">github</a>
+    <a class="footer-link footer-btn" href="https://www.linkedin.com/in/he-jin-claire-oh-aa8a80177/">LinkedIn</a>
+    <a class="footer-link footer-btn" href="">github</a>
 
     <p class="copyright">© 2020 He-Jin Oh</p>
   </div>

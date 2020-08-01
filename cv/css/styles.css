@@ -19,11 +19,13 @@ h2 {
   font-family: 'Roboto Mono', monospace;
   font-size: 2.5rem;
   color: #393e46;
+  padding: 25px 0 8px;
 }
 
 h3 {
   font-family: 'Work Sans', sans-serif;
   color: #ba7967;
+  padding: 20px;
 }
 
 hr {
@@ -36,17 +38,6 @@ hr {
 
 p {
   line-height: 1.5;
-}
-
-a {
-  color: #4cbbb9;
-  font-family: 'Work Sans', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-a:hover{
-  color: #beebe9;
 }
 
 .top-container {
@@ -92,39 +83,95 @@ a:hover{
   margin: auto;
 }
 
-.kasa-design {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.computer-gif {
-  width: 25%;
-  float: right;
-}
 
 .bottom-container {
   font-weight: normal;
 }
 
-.skill-row {
+.copyright{
+  color: white;
+  font-size: 0.95rem;
+  padding-top: 15px;
+}
+
+/* Top Container */
+.navbar-btn{
+  color: #4cbbb9;
+  font-family: 'Work Sans', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+navbar-btn:hover{
+  color: #beebe9;
+}
+
+/* Middle Container */
+
+  /* Skill Part   */
+.skills{
+  background-color: #fee9b2;
+}
+.skill-row{
   width: 50%;
+  height: auto;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
-  text-align: left;
+  text-align: center;
+  margin: 10px auto 10px auto;
+}
+.kasa-design {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
 }
 
-.btn {
+.computer-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+.carousel-control-prev{
+  color: #daa592;
+}
+.carousel-control-next{
+  color: #daa592;
+}
+
+  /* Contact Me part */
+
+.contact-me-words{
+  padding-bottom: 20px;
+}
+.contact-btn {
   background-color: #ffb6b9;
+  color: inherit;
   font-size: 28px;
   border-style: solid;
-  border-radius: 20px;
+  border-radius: 15px;
   text-decoration: none;
-  color: inherit;
+  margin: 20px;
+  padding: 15px;
+}
+contact-btn:hover{
+  background-color: #ffe4e4;
+  text-decoration: none;
+  color: white;
 }
 
-.copyright{
-  color: white;
-  font-size: 0.95rem
+/* Bottom Container */
+.footer-btn{
+  color: #4cbbb9;
+  font-family: 'Work Sans', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+footer-btn:hover{
+  color: #beebe9;
 }
